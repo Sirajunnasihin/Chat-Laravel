@@ -1,6 +1,6 @@
 {
     "name": "arkcode/chat-laravel",
-    "version": "1.0",
+    "version": "1.0.0",
     "description": "Live chat widget for Laravel that also includes multi-user chat, group permissions, customer support chat & more.",
     "keywords": [
         "laravel",
