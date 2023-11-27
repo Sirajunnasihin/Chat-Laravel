@@ -7,8 +7,8 @@
         "laravel-package",
         "laravel chat package"
     ],
-    "homepage": "https://github.com/Sirajunnasihin/Chat-Laravel",
     "license": "MIT",
+    "homepage": "https://github.com/Sirajunnasihin/Chat-Laravel",
     "authors": [
         {
             "name": "arkcode",
