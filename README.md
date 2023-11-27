@@ -54,43 +54,6 @@ AddChat can be installed via composer. Smooth... 🍻
     }]
     ```
 
-    (once you complete, the `composer.json` file will look something like this) 
-
-    ```json
-    {
-        .
-        .
-        .
-        .
-        .
-        
-        "minimum-stability": "dev",
-        "prefer-stable": true,
-        "scripts": {
-            "post-autoload-dump": [
-                "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
-                "@php artisan package:discover --ansi"
-            ],
-            "post-root-package-install": [
-                "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
-            ],
-            "post-create-project-cmd": [
-                "@php artisan key:generate --ansi"
-            ]
-        },
-
-
-        "repositories": [{
-            "type": "path",
-            "url": "addchat-laravel-pro/"
-        }]
-
-    }
-
-    ```
-
-
-
 4. Install AddChat Laravel Pro via Composer
 
     ```php
