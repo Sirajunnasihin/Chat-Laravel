@@ -57,7 +57,7 @@ AddChat can be installed via composer. Smooth... 🍻
 4. Install AddChat Laravel Pro via Composer
 
     ```php
-    composer require classiebit/addchat-laravel-pro
+    composer require sirajunnasihin/addchat-laravel-pro
     ```
 
 5. Run AddChat install command
@@ -139,4 +139,4 @@ AddChat can be installed via composer. Smooth... 🍻
 ---
 
 
-Setup finishes here, now heads-up straight to **[Settings](https://addchat-pro-docs.classiebit.com/docs/1.0/admin/settings)** docs
+Setup finishes here
