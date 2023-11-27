@@ -1,13 +1,13 @@
 <?php
 
-namespace Classiebit\Addchat\Commands;
+namespace Arkcode\Addchat\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
 use Intervention\Image\ImageServiceProviderLaravel5;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Process\Process;
-use Classiebit\Addchat\AddchatServiceProvider;
+use Arkcode\Addchat\AddchatServiceProvider;
 
 class InstallCommand extends Command
 {
@@ -64,37 +64,10 @@ class InstallCommand extends Command
 
         // verify installation
         // get domain name
-        $domain      = parse_url(request()->root())['host']; 
-        $s_host      = \Request::ip(); 
-        $license_key = $this->ask('Enter Your license_key');
         if($this->confirm('Do you wish to continue?'))
         {
-            $client = new \GuzzleHttp\Client(['verify' => false]);
-            $response = $client->request('POST', 'https://cblicense.classiebit.com/verifyl', [
-                'form_params' => [
-                    'domain'        => $domain,
-                    's_host'        => $s_host,
-                    'code'          => "CBADLPRO01",
-                    'license_key'   => $license_key
-                ]
-            ]);
-            $response = json_decode($response->getBody()->getContents());
-            if(!empty($response))
-            {   
-                if($response->status)
-                {
-                    $this->info('License verified, installing...');
-                    $this->install($filesystem);
-                }
-                else
-                {
-                    $this->info('License verification failed.');
-                }    
-            }
-            else
-            {
-                $this->info('License verification failed.');
-            }    
+            $this->info('Process, installing...');
+            $this->install($filesystem);
         }
         else
         {

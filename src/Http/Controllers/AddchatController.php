@@ -1,8 +1,8 @@
 <?php
 
-namespace Classiebit\Addchat\Http\Controllers;
-use Classiebit\Addchat\Models\AddchatModel;
-use Facades\Classiebit\Addchat\Addchat;
+namespace Arkcode\Addchat\Http\Controllers;
+use Arkcode\Addchat\Models\AddchatModel;
+use Facades\Arkcode\Addchat\Addchat;
 
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\URL;
@@ -14,17 +14,17 @@ use Illuminate\Http\Request;
 use Auth;
 use Validator;
 
-use Classiebit\Addchat\Models\BlockUser;
-use Classiebit\Addchat\Models\Contact;
-use Classiebit\Addchat\Models\Group;
-use Classiebit\Addchat\Models\GroupChat;
-use Classiebit\Addchat\Models\Guest;
-use Classiebit\Addchat\Models\GuestNotification;
-use Classiebit\Addchat\Models\Message;
-use Classiebit\Addchat\Models\Profile;
-use Classiebit\Addchat\Models\User;
-use Classiebit\Addchat\Models\UserGroup;
-use Classiebit\Addchat\Models\UserNotification;
+use Arkcode\Addchat\Models\BlockUser;
+use Arkcode\Addchat\Models\Contact;
+use Arkcode\Addchat\Models\Group;
+use Arkcode\Addchat\Models\GroupChat;
+use Arkcode\Addchat\Models\Guest;
+use Arkcode\Addchat\Models\GuestNotification;
+use Arkcode\Addchat\Models\Message;
+use Arkcode\Addchat\Models\Profile;
+use Arkcode\Addchat\Models\User;
+use Arkcode\Addchat\Models\UserGroup;
+use Arkcode\Addchat\Models\UserNotification;
 
 class AddchatController extends Controller
 {

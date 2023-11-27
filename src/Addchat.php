@@ -1,6 +1,6 @@
 <?php
 
-namespace Classiebit\Addchat;
+namespace Arkcode\Addchat;
 
 use Illuminate\Filesystem\Filesystem;
 
@@ -40,7 +40,7 @@ class Addchat
 
             // Loop through all the packages and get the version of package
             foreach ($file->packages as $package) {
-                if ($package->name == 'classiebit/addchat') {
+                if ($package->name == 'Arkcode/addchat') {
                     $this->version = $package->version;
                     break;
                 }

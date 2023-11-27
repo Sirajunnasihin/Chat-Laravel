@@ -1,14 +1,14 @@
 <?php
 
-namespace Classiebit\Addchat;
+namespace Arkcode\Addchat;
 
 use Illuminate\Foundation\AliasLoader;
-use Classiebit\Addchat\Facades\Addchat as AddchatFacade;
+use Arkcode\Addchat\Facades\Addchat as AddchatFacade;
 
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
 use Illuminate\Routing\Router;
 
-use  Classiebit\Addchat\Commands\InstallCommand;
+use  Arkcode\Addchat\Commands\InstallCommand;
 use Config;
 
 class AddchatServiceProvider extends ServiceProvider

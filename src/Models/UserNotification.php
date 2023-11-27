@@ -1,7 +1,7 @@
 <?php
 
-namespace Classiebit\Addchat\Models;
-use Classiebit\Addchat\Models\AddchatModel;
+namespace Arkcode\Addchat\Models;
+use Arkcode\Addchat\Models\AddchatModel;
 
 use Illuminate\Database\Eloquent\Model;
 use DB;

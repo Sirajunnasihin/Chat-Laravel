@@ -1,6 +1,6 @@
 <?php
 
-namespace Classiebit\Addchat\Facades;
+namespace Arkcode\Addchat\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

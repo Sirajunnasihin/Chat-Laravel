@@ -1,9 +1,9 @@
 <?php
 
-namespace Classiebit\Addchat\Models;
-use Classiebit\Addchat\Models\AddchatModel;
+namespace Arkcode\Addchat\Models;
+use Arkcode\Addchat\Models\AddchatModel;
 
-use Classiebit\Addchat\Models\Group;
+use Arkcode\Addchat\Models\Group;
 
 use Illuminate\Database\Eloquent\Model;
 use DB;

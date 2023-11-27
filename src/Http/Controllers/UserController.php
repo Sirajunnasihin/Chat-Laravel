@@ -1,6 +1,6 @@
 <?php
 
-namespace Classiebit\Addchat\Http\Controllers;
+namespace Arkcode\Addchat\Http\Controllers;
 
 
 use Illuminate\Http\Response;
@@ -10,12 +10,12 @@ use Illuminate\Support\Facades\Crypt;
 use App\Http\Controllers\Controller; 
 
 use Illuminate\Http\Request;
-use Facades\Classiebit\Addchat\Addchat;
+use Facades\Arkcode\Addchat\Addchat;
 use Auth;
 
 use Validator;
-use Classiebit\Addchat\Models\User;
-use Classiebit\Addchat\Http\Controllers\AddchatController;
+use Arkcode\Addchat\Models\User;
+use Arkcode\Addchat\Http\Controllers\AddchatController;
 
 class UserController extends AddchatController
 {

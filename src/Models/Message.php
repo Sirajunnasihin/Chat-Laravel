@@ -1,12 +1,12 @@
 <?php
 
-namespace Classiebit\Addchat\Models;
-use Classiebit\Addchat\Models\AddchatModel;
+namespace Arkcode\Addchat\Models;
+use Arkcode\Addchat\Models\AddchatModel;
 
 use Illuminate\Database\Eloquent\Model;
 use DB;
 
-use Classiebit\Addchat\Models\Guest;
+use Arkcode\Addchat\Models\Guest;
 
 class Message extends AddchatModel
 {
