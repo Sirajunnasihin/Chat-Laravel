@@ -5,10 +5,8 @@
     "keywords": [
         "laravel",
         "laravel-package",
-        "laravel chat package",
-        "vuejs"
+        "laravel chat package"
     ],
-    "keywords": ["log","logging"],
     "homepage": "https://github.com/Sirajunnasihin/Chat-Laravel",
     "license": "MIT",
     "authors": [
