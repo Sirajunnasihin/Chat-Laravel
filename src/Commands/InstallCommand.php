@@ -23,7 +23,7 @@ class InstallCommand extends Command
      *
      * @var string
      */
-    protected $description = 'Install the Addchat Pro package';
+    protected $description = 'Install the Chat Laravel package';
 
     protected function getOptions()
     {
@@ -111,6 +111,6 @@ class InstallCommand extends Command
         $this->call('storage:link');
         
         // Finish
-        $this->info('Congrats! Addchat Laravel Pro installed successfully. Good Luck :)');
+        $this->info('Congrats! Chat Laravel installed successfully. Good Luck :)');
     }    
 }

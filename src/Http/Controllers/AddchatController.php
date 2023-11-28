@@ -11,8 +11,8 @@ use Illuminate\Support\Facades\Crypt;
 use App\Http\Controllers\Controller; 
 
 use Illuminate\Http\Request;
-use Auth;
-use Validator;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Validator;
 
 use Arkcode\Addchat\Models\BlockUser;
 use Arkcode\Addchat\Models\Contact;

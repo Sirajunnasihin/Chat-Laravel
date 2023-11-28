@@ -1,7 +1,7 @@
 <?php
 
 
-use Classiebit\Addchat\Facades\Addchat;
+use Arkcode\Addchat\Facades\Addchat;
 
 /*
 |--------------------------------------------------------------------------

@@ -11,9 +11,9 @@ use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 use Facades\Arkcode\Addchat\Addchat;
-use Auth;
+use Illuminate\Support\Facades\Auth;
 
-use Validator;
+use Illuminate\Support\Facades\Validator;
 use Arkcode\Addchat\Http\Controllers\AddchatController;
 
 class ContactController extends AddchatController
