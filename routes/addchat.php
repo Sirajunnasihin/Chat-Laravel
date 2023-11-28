@@ -11,10 +11,7 @@ use Arkcode\Addchat\Facades\Addchat;
 */
 
 $namespace = '\Arkcode\Addchat\Http\Controllers';
-Route::group([
-    'namespace' => $namespace,
-    'as'    => 'addchat.'
-], function() use($namespace) {
+Route::group(['namespace' => $namespace, 'as' => 'addchat.'], function() use($namespace) {
 
     // API ROUTES
     Route::prefix('addchat_api')->group(function () use($namespace) {
@@ -312,7 +309,7 @@ Route::group([
         Route::post('guest_login', [$controller, "guest_login"]);
 
         // check guest exist or not into guest table
-        Route::post('get_guest_user', [$controller, "get_guest_user"]); 
+        Route::get('get_guest_user', [$controller, "get_guest_user"]); 
 
 
         // get guests user for login user if have guest group

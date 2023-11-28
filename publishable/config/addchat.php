@@ -119,13 +119,13 @@ return [
      * 
     */
 
-    'groups_table'      => NULL,
-    'groups_col_id'     => NULL,
-    'groups_col_name'   => NULL,
+    'groups_table'      => 'groups',
+    'groups_col_id'     => 'id',
+    'groups_col_name'   => 'name',
     
-    'ug_table'          => NULL,
-    'ug_col_user_id'    => NULL,
-    'ug_col_group_id'   => NULL,
+    'ug_table'          => 'users_groups',
+    'ug_col_user_id'    => 'user_id',
+    'ug_col_group_id'   => 'group_id',
     
     
      /**

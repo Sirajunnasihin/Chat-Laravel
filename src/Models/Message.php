@@ -4,7 +4,7 @@ namespace Arkcode\Addchat\Models;
 use Arkcode\Addchat\Models\AddchatModel;
 
 use Illuminate\Database\Eloquent\Model;
-use DB;
+use Illuminate\Support\Facades\DB;
 
 use Arkcode\Addchat\Models\Guest;
 

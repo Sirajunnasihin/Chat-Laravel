@@ -6,7 +6,7 @@ use Arkcode\Addchat\Models\AddchatModel;
 use Arkcode\Addchat\Models\Group;
 
 use Illuminate\Database\Eloquent\Model;
-use DB;
+use Illuminate\Support\Facades\DB;
 
 class User extends AddchatModel
 {
